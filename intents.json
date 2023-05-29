@@ -1,0 +1,166 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","tata"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell a wide range of products such as jackets, shirts, jeans, Dresses for Women and much more...."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "payment",
+        "is EMI available"
+      ],
+      "responses": [
+        "We accept most major credit cards, MasterCard, VISA cards and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Expected Delivery Time",
+        "Faster Delivery"
+      ],
+      "responses": [
+        "Delivering the products to our customers on time is our prime duty, most of our orders reach the customer in maximum 2-3 days depending upon the delivery location"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "I failed math so many times at school, I can’t even count.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Never trust atoms; they make up everything.",
+        " Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap."
+      ]
+    },
+    {
+      "tag": "bestSeller",
+      "patterns": [
+        "Which is your bestselling product",
+        "can you recommend me something",
+        "What should I buy",
+        "BestSeller",
+        "Recommendation",
+        "What is your best product",
+        "gift"
+      ],
+      "responses": [
+        "Thank You for Asking, Each and Every product at shopHub is designed by some of the best designers across the world. But we have listed our 8 most selling items at the home page"
+      ]
+    },
+    {
+      "tag": "Complain",
+      "patterns": [
+        "worst quality products",
+        "very bad",
+        "Damaged Products",
+        "what the hell",
+        "disappointed",
+        "very bad service"
+      ],
+      "responses": [
+       "We are very sorry to hear this, you can write your concern in detail at shophubcontact@gmail.com and we'll try to provide you with the best possible solutions. Thank You for choosing ShopHub"
+      ]
+    },
+    {
+      "tag": "Developers",
+      "patterns": [
+        "who are the developers",
+        "engineers",
+        "Who developed this website"
+      ],
+      "responses": [
+       "This website was built and is maintained by Er. Nitin Goyal and Er. Blossom Kaler"
+      ]
+    },
+    {
+      "tag": "WhyShopHub",
+      "patterns": [
+        "why shophub",
+        "is your quality good",
+        "why should I buy",
+        "are your products good?"
+      ],
+      "responses": [
+       "Our Each and every product is designed by some of the best fashion designers across the world with the material used of the highest quality. Shop Now and Experience the best of its kind"
+      ]
+    },
+    {
+      "tag": "happyCustomer",
+      "patterns": [
+        "very great quality",
+        "your products are really Amazing",
+        "I always buy clothes on shopHub",
+        "your products are good",
+        "you sell the best products",
+        "your products are the best"
+      ],
+      "responses": [
+       "We are very happy to hear this from our valuable customer, we thrive to serve our customers the best service. Thank you for choosing ShopHub"
+      ]
+    },
+    {
+      "tag": "Price",
+      "patterns": [
+        "what is your average price",
+        "what is the average price of the products",
+        "can your tell me products under",
+        "what is your cheapest product",
+        "Most expensive product"
+      ],
+      "responses": [
+       "Average price of our products is $3000 ranging from $999 to $15000, you can sort the products according to the price and choose the products according to the price that suits you."
+      ]
+    }
+  ]
+}
