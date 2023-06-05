@@ -50,10 +50,13 @@
         "Can I pay with Paypal?",
         "Are you cash only?",
         "payment",
-        "is EMI available"
+        "is EMI available",
+        "cash on delivery",
+        "can I opt for cash on delivery",
+        "do you provide cash on delivery"
       ],
       "responses": [
-        "We accept most major credit cards, MasterCard, VISA cards and Paypal"
+        "We accept most major credit cards, MasterCard, VISA cards and Paypal. Cash on delivery isn't available as of now. Thank you for choosing shophub"
       ]
     },
     {
@@ -63,7 +66,9 @@
         "How long does shipping take?",
         "When do I get my delivery?",
         "Expected Delivery Time",
-        "Faster Delivery"
+        "Faster Delivery",
+        "can I get my order early",
+        "what if delivery gets late"
       ],
       "responses": [
         "Delivering the products to our customers on time is our prime duty, most of our orders reach the customer in maximum 2-3 days depending upon the delivery location"
@@ -105,8 +110,10 @@
         "very bad",
         "Damaged Products",
         "what the hell",
-        "disappointed",
-        "very bad service"
+        "I am very disappointed",
+        "very bad service",
+        "I am quite disappointed",
+        "I recieved the damaged products"
       ],
       "responses": [
        "We are very sorry to hear this, you can write your concern in detail at shophubcontact@gmail.com and we'll try to provide you with the best possible solutions. Thank You for choosing ShopHub"
@@ -120,7 +127,7 @@
         "Who developed this website"
       ],
       "responses": [
-       "This website was built and is maintained by Er. Nitin Goyal and Er. Blossom Kaler"
+       "This website was built and is maintained by Mr. Nitin Goyal and Mrs. Blossom Kaler"
       ]
     },
     {
@@ -129,7 +136,9 @@
         "why shophub",
         "is your quality good",
         "why should I buy",
-        "are your products good?"
+        "are your products good?",
+        "how is the quality of your products",
+        "can I trust shophub"
       ],
       "responses": [
        "Our Each and every product is designed by some of the best fashion designers across the world with the material used of the highest quality. Shop Now and Experience the best of its kind"
@@ -147,6 +156,24 @@
       ],
       "responses": [
        "We are very happy to hear this from our valuable customer, we thrive to serve our customers the best service. Thank you for choosing ShopHub"
+      ]
+    },
+    {
+      "tag": "SpecificProduct",
+      "patterns": [
+        "I want to buy tshirts",
+        "I want to buy shirts",
+        "I want to buy jackets",
+        "I want to buy jeans",
+        "I want to buy perfume",
+        "I want to buy loungewear",
+        "help me buy a tshirt",
+        "help me buy a shirt",
+        "help me buy a jean",
+        "help me buy a jacket"
+      ],
+      "responses": [
+       "ThankYou for choosing ShopHub, you can buy the products by a specific category by going to the home page and selecting the appropriate category such as tshirts, shirts, jackets, jeans etc"
       ]
     },
     {
