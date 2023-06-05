@@ -75,6 +75,18 @@
       ]
     },
     {
+      "tag": "deliveryCost",
+      "patterns": [
+       " How much is the shipping cost",
+       "what are the delivery charges",
+       "do you offer a free delivery",
+       "what is the delivery cost"
+      ],
+      "responses": [
+        "We charge $50 for orders below $10,000 but for orders of above $10,000-delivery cost is absolutely free. So happy shopping"
+      ]
+    },
+    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
@@ -159,6 +171,48 @@
       ]
     },
     {
+      "tag": "CustomerSupport",
+      "patterns": [
+       "what are your customer support hours",
+       "how can I contact your customer support",
+       "i want to return an order",
+       "how can I return my order",
+       "can you help me with an issue",
+       "how can I get my refund",
+       "how can I receive my refund",
+       "I want to cancel my order",
+       "how to cancel the order",
+       "what is your contact number",
+       "what is your email"
+      ],
+      "responses": [
+       "Providing the best service to our customers is our utmost priority. If you have any issue regarding cancellation, refund, damaged products or any other sort of enquiry, You can contact our customer support via email or via telepone anytime between 9:00 am to 8:00 pm. Contact NO: 8195081321, email-id:shophub@gmail.com. "
+      ]
+    },
+    {
+      "tag": "OrderPlace",
+      "patterns": [
+        "how to place order",
+        "please help me in placing the order",
+        "can you guide me on how to place order"
+      ],
+      "responses": [
+       "Just add the items you like into the cart. Go to the cart and click `pay now` button, from there you can pay via paypal, credit or debit Card. Thank you for choosing ShopHub"
+      ]
+    },
+    {
+      "tag": "wishlistCart",
+      "patterns": [
+        "how to add items to wishlist",
+        "how to add items to cart",
+        "how can I access my cart",
+        "how can I access my wishlist"
+      ],
+      "responses": [
+       "You can add products to your cart and wishlist by hovering upon the products and clicking on heart and cart icon respectivly. You can access your wishlist and cart icon anytime by clicking on heart adn cart icon in the navbar"
+      ]
+    },
+    {
       "tag": "SpecificProduct",
       "patterns": [
         "I want to buy tshirts",
@@ -170,7 +224,9 @@
         "help me buy a tshirt",
         "help me buy a shirt",
         "help me buy a jean",
-        "help me buy a jacket"
+        "help me buy a jacket",
+        "I want to buy dresses",
+        "help me buy a dress"
       ],
       "responses": [
        "ThankYou for choosing ShopHub, you can buy the products by a specific category by going to the home page and selecting the appropriate category such as tshirts, shirts, jackets, jeans etc"
@@ -180,6 +236,8 @@
       "tag": "Price",
       "patterns": [
         "what is your average price",
+        "what is the price range of your products",
+        "what is your price range",
         "what is the average price of the products",
         "can your tell me products under",
         "what is your cheapest product",
